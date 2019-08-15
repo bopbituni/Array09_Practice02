@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let a = prompt("nhap vao ky tu :");
+    let b = prompt("nhap vao :");
+    let count = 0;
+
+    function CheckKyTu(arr, key) {
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === key) {
+                count++;
+            }
+        }
+        if (count > 0) {
+            alert(count);
+        } else {
+            alert(-1)
+        }
+    }
+CheckKyTu(a,b)
+
+</script>
+</body>
+</html>
